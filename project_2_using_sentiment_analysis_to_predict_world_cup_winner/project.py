@@ -11,11 +11,11 @@ from textblob import TextBlob # NLP
 
 # Step 1 - Authenticate (Twitter API)
 
-consumer_key = 'ad29zgKmJ269rkQ5B2VlC1a3i'
-consumer_secret = 'T8of85b1nVIcCfzONOezHK1A9803yNZcRyfxCc7dnCgcIGXu8i'
+consumer_key = 'your key'
+consumer_secret = 'your key'
 
-access_token = '1014588628079644672-U38vSJaMNMb88wUu53NllDe7ZvPGJp'
-access_token_secret = 'lyjvr7rAROGVEUF6MOnEyjzHAAQZ4LXtxw0pu7rq4th4x'
+access_token = 'your key'
+access_token_secret = 'your key'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
